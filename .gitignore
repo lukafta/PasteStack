@@ -1,0 +1,20 @@
+# Build output: installers go to GitHub Releases, not into the repository
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and logs
+*.db
+*.db-journal
+*.log
+
+# Editors and Windows
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
